@@ -14,5 +14,4 @@ _Add `\bin` folders' paths to Windows Environment Variables._
 
 To-do's
 -------
-2. Actually compile Javascript from the original files.
 1. Needs some kind of equivalent of Bootstrap's 'Customize'.

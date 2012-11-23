@@ -19,7 +19,6 @@ echo 	Copying files...
 mkdir %directory%
 set b=bootstrap
 
-
 copy %b%\img\* %directory%\*
 copy %b%\js\bootstrap.min.js %directory%\bootstrap.js
 
