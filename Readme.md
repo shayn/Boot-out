@@ -19,4 +19,8 @@ To-do's
 
 How to use
 ----------
-Change stuff and run `js` to build Javascript and then `pack` to build CSS and move everything (including Javascript).
+Change stuff and run `js` to build Javascript and then `pack` to build CSS and move everything (including Javascript) into a folder called `package`.
+
+### For any feedback/help, please contact me on [Twitter](https://twitter.com/TheShayn)!
+
+* * *
