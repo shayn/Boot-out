@@ -16,3 +16,7 @@ _Add `\bin` folders' paths to Windows Environment Variables._
 To-do's
 -------
 1. Needs some kind of equivalent to Bootstrap's 'Customize'.
+
+How to use
+----------
+Change stuff and run `js` to build Javascript and then `pack` to build CSS and move everything (including Javascript).
