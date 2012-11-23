@@ -6,7 +6,8 @@ Change and compile optimized Bootstrap code along with the project itself, _easi
 
 Dependencies
 ------------
-* 	**Node.js** and **lessc** (Less CSS Compiler)
+* 	**Node.js**
+* 	**lessc** (Less CSS Compiler, depends on Node)
 * 	**Gow** (Gnu On Windows)
 
 _Add `\bin` folders' paths to Windows Environment Variables._
