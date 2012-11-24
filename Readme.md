@@ -15,11 +15,11 @@ _Remeber to add each dependencie's `\bin` folders' paths to Windows Environment 
 
 To-do's
 -------
-1. Needs some kind of cool*efficient equivalent to Bootstrap's 'Customize'.
+1. Needs some kind of cool **x** efficient equivalent to Bootstrap's 'Customize'.
 
 How to use
 ----------
-Change stuff and run `js` to build Javascript and then `pack` to build CSS and move everything (including Javascript) into a folder called `package`.
+Change stuff and just run `pack`. It'll build and pack everything into a folder named `package`.
 
 ### For any feedback/help, please contact me on [Twitter](https://twitter.com/TheShayn)!
 

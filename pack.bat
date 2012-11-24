@@ -5,6 +5,10 @@ REM  * http://shayn.me
 REM  */
 
 echo --------------
+call js
+call less
+
+rem echo ---
 echo Packing-up your Bootstrap-build:
 
 set directory=package
@@ -23,12 +27,11 @@ set b=bootstrap
 copy %b%\img\* %directory%\*
 copy %b%\js\bootstrap.min.js %directory%\bootstrap.js
 
-copy %lib%\jquery.min.js %directory%\jquery.js
+cat %b%\less\bootstrap.less %b%\less\responsive.less > %b%\less\bootstrap-full-c.less
+copy %b%\less\bootstrap-full.min.less %directory%\bootstrap.css
+
+copy %lib%\jquery.min-min.js %directory%\jquery.js
 
 echo 		Done.
 echo Package ready at '\%directory%\'.
 echo --------------
-
-REM Added at the very end to top 'lessc' from ending batch job.
-REM [-x | --yui-compress]
-lessc %b%\less\bootstrap-full.less --yui-compress %directory%\bootstrap.css
