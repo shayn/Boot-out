@@ -8,6 +8,7 @@ echo --------------
 echo Packing-up your Bootstrap-build:
 
 set directory=package
+set lib=libraries
 
 echo 	Deleting old package...
 REM Skip file delete yes/no.
@@ -21,6 +22,8 @@ set b=bootstrap
 
 copy %b%\img\* %directory%\*
 copy %b%\js\bootstrap.min.js %directory%\bootstrap.js
+
+copy %lib%\jquery.min.js %directory%\jquery.js
 
 echo 		Done.
 echo Package ready at '\%directory%\'.
