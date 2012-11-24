@@ -27,7 +27,6 @@ set b=bootstrap
 copy %b%\img\* %directory%\*
 copy %b%\js\bootstrap.min.js %directory%\bootstrap.js
 
-cat %b%\less\bootstrap.less %b%\less\responsive.less > %b%\less\bootstrap-full-c.less
 copy %b%\less\bootstrap-full.min.less %directory%\bootstrap.css
 
 copy %lib%\jquery.min-min.js %directory%\jquery.js

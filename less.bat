@@ -3,6 +3,9 @@ set b_=bootstrap
 
 echo Compiling and minifying LESS files...
 
+REM Join files:
+cat %b%\less\bootstrap.less %b%\less\responsive.less > %b%\less\bootstrap-full-c.less
+
 REM Remove LESS multiline comments:
 grep -vE "((/\*[^*]?)|(\s*\*[^*]?)|(\*/[^*]?))" %b_%\less\bootstrap-full-c.less > %b_%\less\bootstrap-full.less
 
