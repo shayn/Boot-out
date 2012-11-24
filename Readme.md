@@ -8,14 +8,14 @@ Dependencies
 ------------
 * 	**Java** Runtime
 * 	**Node.js**
-* 	**lessc** (Less CSS Compiler, depends on Node)
-* 	**Gow** (Gnu On Windows)
+* 	**lessc** (LESS Compiler, depends on Node and NPM)
+* 	**Cygwin** / **MinGW** / **Gow** (recommended)
 
-_Add `\bin` folders' paths to Windows Environment Variables._
+_Remeber to add each dependencie's `\bin` folders' paths to Windows Environment Variables._
 
 To-do's
 -------
-1. Needs some kind of equivalent to Bootstrap's 'Customize'.
+1. Needs some kind of cool*efficient equivalent to Bootstrap's 'Customize'.
 
 How to use
 ----------
